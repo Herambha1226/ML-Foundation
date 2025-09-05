@@ -1,0 +1,96 @@
+---
+
+# 🟢 **Level 1: Simple Problems (Basics)**
+
+1. **Create a 1D array** with numbers from 10 to 50.
+2. **Create a 3×3 matrix** with values ranging from 0 to 8.
+3. Generate a 5×5 array of **random numbers** between 0 and 1.
+4. Create an array of **even numbers** from 2 to 20.
+5. Create a 3×3 **identity matrix**.
+6. Generate an array of **10 random integers** between 1 and 100.
+7. Convert this Python list `[1,2,3,4,5]` into a NumPy array and find its **mean and sum**.
+
+---
+
+# 🟡 **Level 2: Medium Problems (Operations & Statistics)**
+
+8. Given `arr = np.array([1,2,3,4,5])`, calculate:
+
+   * Square of each element
+   * Sum of all elements
+   * Standard deviation
+
+9. Create a random **4×4 matrix**, and find:
+
+   * Maximum value
+   * Minimum value
+   * Index of the maximum value
+
+10. Reshape a 1D array of 12 numbers into a **3×4 matrix**.
+
+11. Given two arrays:
+
+```python
+a = np.array([1,2,3])
+b = np.array([4,5,6])
+```
+
+Find:
+
+* Element-wise addition
+* Dot product
+* Cross product
+
+12. Create a 6×6 matrix with 1 on the border and 0 inside (like a frame).
+
+---
+
+# 🔴 **Level 3: Hard Problems (Real-world & Advanced)**
+
+13. Generate an array of **100 random numbers** and find:
+
+* Mean
+* Median
+* Variance
+* Standard deviation
+
+14. Given student marks in 3 subjects:
+
+```python
+marks = np.array([
+    [78, 85, 90],
+    [88, 92, 80],
+    [60, 65, 70],
+    [95, 98, 100]
+])
+```
+
+* Find the **average marks per student**
+* Find the **average marks per subject**
+* Find the **highest scoring student**
+
+15. Create a 5×5 random matrix and **normalize it** (all values between 0 and 1).
+
+16. Solve the system of linear equations using NumPy:
+
+```
+2x + y = 20
+3x + 4y = 60
+```
+
+17. Generate a sine wave using `np.linspace` and `np.sin`, then print first 10 values.
+
+18. Create a **magic square checker**: Write a function that checks if a given 3×3 matrix is a magic square (sum of all rows, cols, diagonals same).
+
+---
+
+⚡ These problems will cover:
+
+* Array creation
+* Indexing & slicing
+* Mathematical operations
+* Statistics
+* Linear algebra
+* Real-world simulation
+
+---
