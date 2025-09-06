@@ -1,0 +1,85 @@
+# ------------------------------------------------------  Pandas   ----------------------------------------------------------#  
+Awesome 🚀 You finished Pandas **methods**, now it’s time for **practice problems**.
+I’ll give you a **progression of problems (simple → medium → advanced)** like we did for NumPy.
+
+---
+
+# 🟢 Level 1: Simple Problems (Basics)
+
+1. Create a Pandas **Series** from a list `[10,20,30,40,50]`.
+2. Create a **DataFrame** with 2 columns (`Name`, `Age`) and 3 rows.
+3. Read a CSV file `students.csv` (create one if needed) and display:
+
+   * First 5 rows (`head()`)
+   * Number of rows & columns (`shape`)
+   * Column names
+4. Select the `Age` column from a DataFrame.
+5. Filter all rows where `Marks > 80`.
+
+---
+
+# 🟡 Level 2: Medium Problems (Data Operations)
+
+6. Add a new column `Grade` to the DataFrame, assigning values manually.
+7. Sort students by `Marks` in descending order.
+8. Find the **average marks per student** (row-wise mean).
+9. Find the **maximum marks per subject** (column-wise max).
+10. Replace missing values (`NaN`) in `Marks` with the average marks.
+11. Count how many students got each `Grade` (`value_counts`).
+12. Rename column `Marks` → `Score`.
+13. Drop the column `Age` from the DataFrame.
+
+---
+
+# 🔴 Level 3: Hard Problems (Analysis & Real-World)
+
+14. Given a DataFrame of employees:
+
+```python
+data = {
+    'Name': ['Alice','Bob','Charlie','David','Eva'],
+    'Department': ['HR','IT','IT','Finance','HR'],
+    'Salary': [50000, 60000, 65000, 70000, 52000]
+}
+```
+
+* Find the **average salary per department**.
+* Find the **highest-paid employee in each department**.
+
+15. Load a dataset of students with columns (`Student`, `Math`, `Science`, `English`).
+
+* Add a new column `Average` for each student.
+* Find the **top 3 students by average**.
+* Find the **subject in which students scored the lowest on average**.
+
+16. Create a time-series DataFrame with a date range (`2025-01-01` to `2025-01-10`) and random sales numbers.
+
+* Find the **total sales**.
+* Find the **day with maximum sales**.
+* Compute a **3-day moving average of sales**.
+
+17. Import a CSV with missing values.
+
+* Count how many `NaN` are in each column.
+* Fill missing values with column mean.
+* Drop rows where more than 2 values are missing.
+
+18. Work with stock price data (columns: `Date`, `Open`, `Close`).
+
+* Find the **daily return percentage**.
+* Find the **highest closing price**.
+* Plot the stock `Close` price as a line graph.
+
+---
+
+⚡ These problems cover:
+✔ Data creation
+✔ Selection & filtering
+✔ Sorting & grouping
+✔ Missing data handling
+✔ Aggregation & statistics
+✔ Time series
+✔ Visualization
+
+---
+
