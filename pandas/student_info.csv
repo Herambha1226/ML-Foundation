@@ -1,0 +1,11 @@
+student_id,first_name,last_name,age,grade,email,major,enrollment_date,gpa
+1001,Alice,Johnson,20,A,alice.johnson@example.com,Computer Science,2023-09-01,3.8
+1002,Bob,Smith,21,B,bob.smith@example.com,Mathematics,2023-09-01,3.4
+1003,Charlie,Brown,19,A-,charlie.brown@example.com,Physics,2023-09-01,3.6
+1004,Diana,Prince,22,B+,diana.prince@example.com,Biology,2022-09-01,3.5
+1005,Eve,Williams,20,A,eve.williams@example.com,Chemistry,2023-09-01,3.9
+1006,Frank,Miller,23,C,frank.miller@example.com,History,2021-09-01,2.8
+1007,Grace,Davis,19,B+,grace.davis@example.com,English,2023-09-01,3.3
+1008,Henry,Wilson,21,A-,henry.wilson@example.com,Computer Science,2022-09-01,3.7
+1009,Ivy,Moore,20,B,ivy.moore@example.com,Mathematics,2023-09-01,3.2
+1010,Jack,Taylor,22,C+,jack.taylor@example.com,Physics,2021-09-01,2.9
